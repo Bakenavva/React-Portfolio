@@ -1,0 +1,62 @@
+/* Project card CONTAINER */
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  margin: 1rem;
+}
+
+/* Hover effect for the project card */
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.overlay {
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Styling for the project title */
+.overlay h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* Styling for the project description */
+.overlay p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+/* Styling for the links */
+.overlay a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.overlay a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
