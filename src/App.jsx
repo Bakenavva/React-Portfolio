@@ -10,7 +10,6 @@ function App() {
         <Header />
         <main className="main-content">
           <Routes>
-            {/* <Route path="/" element={<AboutMePage />} /> */}
             <Route path="/about" element={<AboutMePage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/resume" element={<ResumePage />} />
