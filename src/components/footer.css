@@ -1,0 +1,42 @@
+/* General footer styling */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+  
+/* Container for the icons */
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; 
+}
+  
+/* Styling for individual icons */
+.footer-icon {
+  width: 40px; 
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effects */
+}
+  
+/* Hover effect for icons */
+.footer-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8; 
+}
+  
+@media (max-width: 768px) {
+  .footer {
+    padding: 0.5rem 0;
+  }
+  
+  .footer-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
