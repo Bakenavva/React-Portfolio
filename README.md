@@ -35,7 +35,7 @@ This project is licensed under the MIT License.
 
 ## Links
 - [GitHub Repository](https://github.com/Bakenavva/React-Portfolio)
-- [Deployed Application](https://react-portfolio-bakenavva.netlify.app/contact)
+- [Deployed Application](https://react-portfolio-bakenavva.netlify.app/about)
 
 ## Questions
 Further questions can reach me via:
