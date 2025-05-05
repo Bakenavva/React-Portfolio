@@ -13,3 +13,7 @@ export default {
   placeholder5,
   placeholder6,
 };
+
+// Order:
+// Kanban, BookSearch, SQLEmpTracker, 
+// CandidateSearch, API Weather, Tech Quiz
