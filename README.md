@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Installation](#installation)
 - [Technologies](#technologies)
 - [License](#license)
 - [Links](#links)
@@ -13,6 +14,14 @@ This virtual portfolio is deployed to netlify to showcase my various projects, a
 
 Screenshot of application: <br>
 <img src="./src/assets/images/ReactPortfolio.png" alt="screenshotted application" width="800"/> <br>
+
+## Installation
+If for whatever reason, you would like to launch this locally, issue these commands at root:
+
+```bash
+npm i
+npm start
+```
 
 ## Technologies
 * JavaScript
