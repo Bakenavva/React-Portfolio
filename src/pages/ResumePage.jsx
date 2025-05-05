@@ -5,7 +5,7 @@ function ResumePage() {
   return (
     <div className="resume-container">
       <h2>Resume</h2>
-      <a href="/path-to-resume.pdf" download className="resume-download">
+      <a href="/resume.pdf" download="Ernesto_Aleman_Resume.pdf" className="resume-download">
         Download My Resume
       </a>
       <div className="proficiencies">
