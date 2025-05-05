@@ -1,12 +1,12 @@
 import React from 'react';
 import './aboutMePage.css';
-// import profilePic from '../assets/images/profilepic.png'; // Update path later & uncomment once image is available
+import profilePic from '../assets/images/profilepic.png';
 
 function AboutMePage() {
   return (
     <div className="about-container">
       <h2>About Me</h2>
-        {/* <img
+        <img
           src={profilePic}
           alt="Profile"
           style={{
@@ -15,7 +15,7 @@ function AboutMePage() {
             borderRadius: '50%',
             marginRight: '20px',
           }}
-        /> */}
+        />
         <p>
           Hello! My name is Ernesto Aleman, and I am student studying full-stack development. 
           Over the past few months, I’ve been honing my skills in various technologies, including React, Node.js, and Express.

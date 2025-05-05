@@ -5,12 +5,12 @@ import './footer.css'
 const Footer = () => {
   const links = [
     {
-      href: 'https://google.com',
+      href: 'https://github.com/Bakenavva',
       imgSrc: githubIcon,
       alt: 'GitHub',
     },
     {
-      href: 'https://google.com',
+      href: 'https://www.linkedin.com/in/ernesto-aleman-8036942a3/',
       imgSrc: linkedinIcon,
       alt: 'LinkedIn',
     },
