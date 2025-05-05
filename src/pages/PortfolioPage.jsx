@@ -2,50 +2,52 @@ import React from 'react';
 import Project from '../components/Project';
 import './portfolioPage.css';
 
+// Comment on first project object determines how to read lines
+
 function PortfolioPage() {
   // Placeholder project data
   const projects = [
     {
-      name: 'Project 1',
-      repo: 'https://google.com',
-      link: 'https://google.com',
-      description: 'This is a placeholder description for Project 1.',
-      imgName: 'placeholder1', // Placeholder for image key
+      name: 'Kanban Board',
+      repo: 'https://github.com/Bakenavva/Kanban-Board', // GitHub repo link
+      link: 'https://kanban-board-mlms.onrender.com/', // Deployed app, if available; else shows Demo 
+      description: 'Kanban Board to practice JWT authentication',
+      imgName: 'KanbanBoardPreview', // Image key for Kanban Board
     },
     {
-      name: 'Project 2',
-      repo: 'https://google.com',
-      link: 'https://google.com',
-      description: 'This is a placeholder description for Project 2.',
-      imgName: 'placeholder2', // Placeholder for image key
+      name: 'Book Search Engine',
+      repo: 'https://github.com/Bakenavva/Book-Search-Engine',
+      link: 'https://book-search-engine-hv58.onrender.com/',
+      description: 'Converted RESTful API to GraphQL API',
+      imgName: 'BookSearchPreview', 
     },
     {
-      name: 'Project 3',
-      repo: 'https://google.com',
-      link: 'https://google.com',
-      description: 'This is a placeholder description for Project 3.',
-      imgName: 'placeholder3', // Placeholder for image key
+      name: 'SQL Employee Tracker',
+      repo: 'https://github.com/Bakenavva/SQL-Employee-Tracker',
+      link: 'https://drive.google.com/file/d/1Pv4RtcTY-5ilZx9uhk4nQSpXpwyym8fh/view',
+      description: 'PostgreSQL database to manage employees',
+      imgName: 'EmployeeDatabasePreview', 
     },
     {
-      name: 'Project 4',
-      repo: 'https://google.com',
-      link: 'https://google.com',
-      description: 'This is a placeholder description for Project 4.',
-      imgName: 'placeholder4', // Placeholder for image key
+      name: 'Git Candidate Search',
+      repo: 'https://github.com/Bakenavva/Git-Candidate-Search',
+      link: 'https://git-candidate-search-18kv.onrender.com/',
+      description: 'GitHub API to search for candidates',
+      imgName: 'CandidateSelectionPreview', 
     },
     {
-      name: 'Project 5',
-      repo: 'https://google.com',
-      link: 'https://google.com',
-      description: 'This is a placeholder description for Project 5.',
-      imgName: 'placeholder5', // Placeholder for image key
+      name: 'API Weather Dashboard',
+      repo: 'https://github.com/Bakenavva/API-Weather-Dashboard',
+      link: 'https://api-weather-dashboard-6tbm.onrender.com/',
+      description: 'Weather dashboard using OpenWeather API',
+      imgName: 'WeatherDashPreview', 
     },
     {
-      name: 'Project 6',
-      repo: 'https://google.com',
-      link: 'https://google.com',
-      description: 'This is a placeholder description for Project 6.',
-      imgName: 'placeholder6', // Placeholder for image key
+      name: 'Tech Quiz Testing',
+      repo: 'https://github.com/Bakenavva/Tech-Quiz-Testing',
+      link: 'https://drive.google.com/file/d/13Sp4HPOhethdsF_LIVo7Gz3KzzZBqEzO/view',
+      description: 'Configured Cypress testing for a quiz app',
+      imgName: 'CypressTestingPreview', 
     },
   ];
 
