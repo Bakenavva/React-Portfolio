@@ -12,7 +12,7 @@
 This virtual portfolio is deployed to netlify to showcase my various projects, and work that I've worked on since starting the bootcamp course that I joined in November of 2024. It has basic routing to varying pages, minimalistic styling, and the ability to download a resume (it is currently a placeholder).
 
 Screenshot of application: <br>
-<img src=".src/assets/images/ReactPortfolio.png" alt="screenshotted application" width="800"/> <br>
+<img src="./src/assets/images/ReactPortfolio.png" alt="screenshotted application" width="800"/> <br>
 
 ## Technologies
 * JavaScript
